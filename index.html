@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KSU Coffee - Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f3ef;
+      color: #333;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      background: #ffffff;
+      max-width: 500px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      padding: 30px;
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px dashed #d1c7bd;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0 0 10px 0;
+      color: #5c3d2e;
+    }
+    .student-info {
+      font-size: 0.95em;
+      color: #777;
+    }
+    .version-tag {
+      display: inline-block;
+      background-color: #e8d8c8;
+      color: #5c3d2e;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 0.85em;
+    }
+    ul.menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 25px 0;
+    }
+    li.menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .promo-btn {
+      display: block;
+      text-align: center;
+      background-color: #5c3d2e;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .promo-btn:hover {
+      background-color: #3d281e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>KSU Coffee</h1>
+      <div class="student-info">รหัสนักศึกษา: <strong>681540006005-4</strong></div>
+      <div class="version-tag">Menu v2</div>
+    </header>
+
+    <ul class="menu-list">
+      <li class="menu-item">
+        <span>Espresso</span>
+        <strong>50 บาท</strong>
+      </li>
+      <li class="menu-item">
+        <span>Americano</span>
+        <strong>55 บาท</strong>
+      </li>
+      <li class="menu-item">
+        <span>Caffe Latte</span>
+        <strong>65 บาท</strong>
+      </li>
+      <li class="menu-item">
+        <span>Caramel Macchiato (เมนูใหม่)</span>
+        <strong>75 บาท</strong>
+      </li>
+    </ul>
+
+    <a href="http://localhost:8081" class="promo-btn">ดูโปรโมชั่น</a>
+  </div>
+</body>
+</html>
